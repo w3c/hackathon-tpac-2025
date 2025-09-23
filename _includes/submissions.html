@@ -1,0 +1,50 @@
+<section
+  id="submissions"
+  class="section container"
+  aria-labelledby="submissions-title"
+>
+  <h2 id="submissions-title">
+    {{ site.data.submissions.title | default: "Submissions" }}
+  </h2>
+  <p>Projects will be showcased here after the event.</p>
+  <!-- {% if site.data.submissions.intro %}
+  <p class="lead">{{ site.data.submissions.intro }}</p>
+  {% endif %} {% assign items = site.data.submissions.items | default: empty %}
+  <div class="mosaic" role="list" aria-label="Submissions grid">
+    {% if items and items.size > 0 %} {% for sub in items %} {% assign
+    tile_class = sub.color %} {% if tile_class == nil or tile_class == "" %} {%
+    capture tile_class %}{% cycle 'one','two','three','four','five' %}{%
+    endcapture %} {% endif %}
+
+    <div class="submission">
+      <a
+        class="tile {{ tile_class }}"
+        role="listitem"
+        href="{{ sub.repo_url }}"
+        target="_blank"
+        rel="noopener"
+        aria-label="{{ sub.title }}"
+      >
+        <div class="studs" aria-hidden="true"></div>
+        <div class="tile-label">{{ sub.title }}</div>
+      </a>
+      <div class="authors">
+        {% for author in sub.authors %} {% if author.github %}
+        <a
+          href="https://github.com/{{ author.github }}"
+          target="_blank"
+          rel="noopener"
+          >{{ author.name }}</a
+        >
+        {% else %} {{ author.name }} {% endif %} {% unless forloop.last %}, {%
+        endunless %} {% endfor %}
+      </div>
+    </div>
+    {% endfor %} {% else %}
+    <div class="tile one" role="listitem">
+      <div class="studs" aria-hidden="true"></div>
+      <div class="tile-label">Coming soon</div>
+    </div>
+    {% endif %}
+  </div> -->
+</section>

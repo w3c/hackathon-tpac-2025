@@ -1,0 +1,44 @@
+<section
+  id="challenges"
+  class="section container"
+  aria-labelledby="challenge-title"
+>
+  <h2 id="challenge-title">Choose Your Challenge</h2>
+  <p class="lead">{{ site.data.challenges.intro }}</p>
+  <div class="cards">
+    {% for t in site.data.challenges.tracks %}
+    <article class="card half">
+      <h3 class="card-title">
+        <span class="stud {{ t.color }}" aria-hidden="true"></span> {{ t.heading
+        }}
+      </h3>
+      <p>{{ t.description }}</p>
+      {% if t.note %}
+      <hr
+        style="
+          border: none;
+          border-top: 2px solid rgba(60, 59, 59, 0.06);
+          margin: 12px 0;
+        "
+      />
+      <p>{{ t.note }}</p>
+      {% endif %} {% if t.examples %}
+      <hr
+        style="
+          border: none;
+          border-top: 2px solid rgba(60, 59, 59, 0.06);
+          margin: 12px 0;
+        "
+      />
+      <ul>
+        {% for ex in t.examples %}
+        <li>{{ ex }}</li>
+        {% endfor %}
+      </ul>
+      {% elsif t.link_href and t.link_text %}
+      <p><a href="{{ t.link_href }}">{{ t.link_text }}</a></p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>

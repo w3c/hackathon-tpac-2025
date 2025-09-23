@@ -1,0 +1,7 @@
+# _config.yml
+title: "W3C Hackathon TPAC 2025 — Kobe"
+description: "Build a tiny web demo or propose a community tool idea."
+markdown: kramdown
+theme: null
+sass:
+  style: compressed

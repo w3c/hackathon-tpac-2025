@@ -1,0 +1,10 @@
+intro: "Pick one track and keep scope tiny. The exact challenges will be revealed closer to the date."
+tracks:
+  - color: yellow
+    heading: "Challenge #1"
+    description: "Stay tuned!"
+    note: "More details coming soon."
+  - color: red
+    heading: "Challenge #2"
+    description: "Stay tuned for this one too!"
+    note: "More details coming soon."

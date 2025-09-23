@@ -1,0 +1,30 @@
+<section id="schedule" class="section container" aria-labelledby="rules-title">
+  <h2 id="rules-title">
+    {{ site.data.rules.title | default: "Participation Guidelines" }}
+  </h2>
+
+  <div class="cards">
+    <article class="card half" aria-label="Rules">
+      <h3 class="card-title">
+        <span class="stud green" aria-hidden="true"></span>
+        {{ site.data.rules.rules.heading | default: "Rules" }}
+      </h3>
+      <ul>
+        {% for item in site.data.rules.rules.items %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+    <article class="card half" aria-label="Submission format">
+      <h3 class="card-title">
+        <span class="stud blue" aria-hidden="true"></span>
+        {{ site.data.rules.format.heading | default: "Submission format" }}
+      </h3>
+      <ul>
+        {% for item in site.data.rules.format.items %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+title: "Participation Guidelines"
+
+rules:
+  heading: "Rules"
+  items:
+    - "You have 90 minutes to build or sketch."
+    - "Work solo or in a pair."
+    - "Original work during the hack; reusing your own snippets is fine."
+    - "AI tools are allowed, but be ready to explain your process."
+
+format:
+  heading: "Submission format"
+  items:
+    - "Your project should be in a GitHub repo you create."
+    - "Include your code files or any other materials (images, etc.) and a 1–2 sentence summary in the README."
+    - "Create a PR to this repo's submissions.yaml before the 21:35 JST deadline."

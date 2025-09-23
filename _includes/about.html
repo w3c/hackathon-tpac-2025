@@ -1,0 +1,35 @@
+<section id="about" class="section container" aria-labelledby="about-title">
+  <h2 id="about-title">About</h2>
+  <p class="lead">{{ site.data.event.about_intro }}</p>
+
+  <div class="cards">
+    <article class="card half">
+      <h3 class="card-title">
+        <span class="stud red" aria-hidden="true"></span> Date & Time
+      </h3>
+      <p>
+        <strong>Date:</strong> {{ site.data.event.date }} &nbsp;
+        <strong>Time:</strong> {{ site.data.event.time }}
+      </p>
+    </article>
+    <article class="card half">
+      <h3 class="card-title">
+        <span class="stud blue" aria-hidden="true"></span> Location
+      </h3>
+      <p><strong>Venue:</strong> {{ site.data.event.venue }}</p>
+    </article>
+    <article class="card full">
+      <h3 class="card-title">
+        <span class="stud green" aria-hidden="true"></span> Schedule (JST)
+      </h3>
+      <ul>
+        {% for i in site.data.schedule.items %}
+        <li>{{ i.time }} — {{ i.text }}</li>
+        {% endfor %}
+      </ul>
+      {% if site.data.event.catering_note %}
+      <p style="margin-top: 10px">{{ site.data.event.catering_note }}</p>
+      {% endif %}
+    </article>
+  </div>
+</section>

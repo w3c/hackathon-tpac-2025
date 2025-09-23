@@ -1,0 +1,36 @@
+<section
+  id="sponsors"
+  class="section container"
+  aria-labelledby="sponsors-title"
+>
+  <h2 id="sponsors-title">
+    {{ site.data.sponsors.title | default: "Sponsors" }}
+  </h2>
+  {% if site.data.sponsors.intro %}
+  <p class="lead sponsors">{{ site.data.sponsors.intro }}</p>
+  {% endif %}
+
+  <div class="sponsor-grid" role="list">
+    {% for s in site.data.sponsors.items %}
+    <a
+      class="sponsor"
+      role="listitem"
+      href="{{ s.website }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="{{ s.name }}"
+    >
+      {% if s.logo %}
+      <img
+        src="{{ s.logo | relative_url }}"
+        alt="{{ s.name }} logo"
+        loading="lazy"
+        decoding="async"
+      />
+      {% else %}
+      <span class="sponsor-fallback">{{ s.name }}</span>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>

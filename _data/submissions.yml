@@ -1,0 +1,19 @@
+title: "Submissions"
+intro: "All projects will appear here."
+
+items:
+  - title: "Example name of a project"
+    repo_url: "https://github.com/example/example-project"
+    challenge_track: "1" # 1 is CSS, 2 is W3C Tools
+    authors:
+      - name: "Alice Example"
+        github: "alice"
+
+  - title: "Example name of another project"
+    repo_url: "https://github.com/example/example-project-2"
+    challenge_track: "2"
+    authors:
+      - name: "Bob Example"
+        github: "bob"
+      - name: "Charlie Dev"
+        github: "charliedev"

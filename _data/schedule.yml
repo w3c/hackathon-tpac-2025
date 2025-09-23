@@ -1,0 +1,6 @@
+items:
+  - { time: "19:00", text: "Check-in & challenge overview" }
+  - { time: "19:30", text: "Building starts (90 minutes)" }
+  - { time: "21:00", text: "Submissions close" }
+  - { time: "21:30", text: "Lightning demos & voting" }
+  - { time: "22:00", text: "Prizes & wrap-up" }

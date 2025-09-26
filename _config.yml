@@ -5,4 +5,4 @@ markdown: kramdown
 theme: null
 sass:
   style: compressed
-baseurl: https://www.w3.org/2025/11/TPAC/hackathon/
+baseurl: /2025/11/TPAC/hackathon/

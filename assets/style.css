@@ -47,7 +47,7 @@ a {
 .container {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 16px;
 }
 .section {
   padding: 56px 24px;
@@ -96,7 +96,7 @@ header {
 }
 nav ul {
   display: flex;
-  gap: 14px;
+  gap: 8px;
   padding: 0;
   margin: 0;
   list-style: none;

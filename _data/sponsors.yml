@@ -4,6 +4,6 @@ intro: "Thank you to the supporters making this event possible!"
 # Place logo files under: assets/images/sponsors/
 # Accepts PNG/SVG; SVG preferred for crispness.
 items:
-  - name: "W3C"
-    website: "https://w3.org"
-    logo: "/assets/images/sponsors/w3c-no-bars.svg"
+  - name: "Holopin"
+    website: "https://holopin.io"
+    logo: "/assets/images/sponsors/holopin-logo.png"

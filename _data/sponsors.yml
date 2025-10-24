@@ -6,4 +6,7 @@ intro: "Thank you to the supporters making this event possible!"
 items:
   - name: "Holopin"
     website: "https://holopin.io"
-    logo: "/assets/images/sponsors/holopin-logo.png"
+    logo: "/assets/images/sponsors/holopin.png"
+  - name: "GoDaddy"
+    website: "https://www.godaddy.com"
+    logo: "/assets/images/sponsors/godaddy.png"

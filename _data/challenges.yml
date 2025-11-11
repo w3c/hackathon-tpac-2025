@@ -1,10 +1,10 @@
 intro: "Pick one track and keep scope tiny. The exact challenges will be revealed closer to the date."
 tracks:
   - color: yellow
-    heading: "Challenge #1"
-    description: "Stay tuned!"
-    note: "More details coming soon."
+    heading: "Challenge #1: CSS Playground"
+    description: "Create a wild CSS demo"
+    note: "Put your coding skills to use to build anything that shows off the power (and weirdness) of CSS. Using HTML and JavaScript is fine. AI tools are allowed—just be ready to explain your process."
   - color: red
-    heading: "Challenge #2"
-    description: "Stay tuned for this one too!"
-    note: "More details coming soon."
+    heading: "Challenge #2: Dashboard"
+    description: "Build a small dashboard or visualization"
+    note: "Create something that gathers or presents information in a useful way: could be related to W3C, the Web, or anything you care about. It can be just a concept or a working prototype."

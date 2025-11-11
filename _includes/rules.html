@@ -25,6 +25,15 @@
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
+      {% if site.data.rules.format.urls %}
+      <p>
+        {% for url in site.data.rules.format.urls %}
+        <a href="{{ url.link }}" style="text-decoration: underline"
+          >{{ url.text }}</a
+        >
+        {% endfor %}
+      </p>
+      {% endif %}
     </article>
   </div>
 </section>

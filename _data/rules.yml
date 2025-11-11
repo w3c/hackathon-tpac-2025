@@ -5,12 +5,15 @@ rules:
   items:
     - "You have 90 minutes to build or sketch."
     - "Work solo or in a pair."
-    - "Original work during the hack; reusing your own snippets is fine."
-    - "AI tools are allowed, but be ready to explain your process."
+    - "All work should be created during the hackathon, but reusing your own snippets is fine."
+    - "AI tools are allowed—just be ready to explain your process."
 
 format:
-  heading: "Submission format"
+  heading: "Submission Format"
   items:
-    - "Your project should be in a GitHub repo you create."
-    - "Include your code files or any other materials (images, etc.) and a 1–2 sentence summary in the README."
-    - "Create a PR to this repo's submissions.yaml before the 21:35 JST deadline."
+    - "Create a GitHub repository for your project."
+    - "Include your code + any other materials in the repo."
+    - "Post your project in the GH repo Issue thread for the relevant challenge. Include title, hacker(s), description, repo url and a screenshot."
+  urls:
+    - text: "Submission Issues &#x2197;"
+      link: "https://github.com/w3c/hackathon-tpac-2025/issues"

@@ -7,7 +7,7 @@ items:
     description: "Render video as ASCII art, with optional Matrix effects"
     award: "2nd Place Winner"
     demo_url: "https://wseltzer.github.io/hack2025/"
-    image: "https://github.com/user-attachments/assets/3a28ce04-ae1b-44b1-a14a-efdae4bfe3f1"
+    image: "assets/submissions/3a28ce04-ae1b-44b1-a14a-efdae4bfe3f1.webp"
     authors:
       - name: "Wendy Seltzer"
         github: "wseltzer"
@@ -16,7 +16,7 @@ items:
     repo_url: "https://github.com/eemeli/tpac2025-hackathon"
     description: "The hackathon front page, from a few years ago"
     demo_url: "https://eemeli.org/tpac2025-hackathon/"
-    image: "https://github.com/user-attachments/assets/de2fded1-3bfb-45ac-bfbb-db4217469e56"
+    image: "assets/submissions/de2fded1-3bfb-45ac-bfbb-db4217469e56.webp"
     authors:
       - name: "Eemeli Aro"
         github: "eemeli"
@@ -25,7 +25,7 @@ items:
     repo_url: "https://github.com/adampage/tpac-hackathon-2025"
     description: "A collection of visual disability simulations using CSS techniques applied to the TPAC 2025 Hackathon web page."
     demo_url: "https://adampage.github.io/tpac-hackathon-2025/"
-    image: "https://github.com/user-attachments/assets/2f2d78f4-3318-4fe5-9107-74519e073b7b"
+    image: "assets/submissions/2f2d78f4-3318-4fe5-9107-74519e073b7b.webp"
     award: "1st Place Winner"
     authors:
       - name: "Giacomo Petri"
@@ -38,7 +38,7 @@ items:
   - title: "TPAC schedule"
     repo_url: "https://github.com/bert-github/tpac-schedule"
     description: "The build system for the TPAC schedule page"
-    image: "https://github.com/user-attachments/assets/9b1edb1f-b7f5-441a-adbc-fceba42aba43"
+    image: "assets/submissions/9b1edb1f-b7f5-441a-adbc-fceba42aba43.webp"
     authors:
       - name: "Bert Bos"
         github: "bert-github"
@@ -47,7 +47,7 @@ items:
     repo_url: "https://github.com/reidmore-online/hackathon"
     description: "New CSS, classic styling. Turns out the table layout is the best layout."
     demo_url: "https://reidmore-online.github.io/hackathon/"
-    image: "https://github.com/user-attachments/assets/44075637-f45d-4c10-828c-16e5e3fe1d72"
+    image: "assets/submissions/44075637-f45d-4c10-828c-16e5e3fe1d72.webp"
     authors:
       - name: "Wendy Reid"
         github: "reidmore-online"
@@ -55,7 +55,7 @@ items:
   - title: "Who needs JavaScript? Showing CSS slidedecks"
     repo_url: "https://github.com/estelle/TPAC2025"
     description: "One file. Several slidedecks."
-    image: "https://github.com/user-attachments/assets/93a25502-9666-40dc-815e-791576bdb709"
+    image: "assets/submissions/93a25502-9666-40dc-815e-791576bdb709.webp"
     authors:
       - name: "Estelle Weyl"
         github: "estelle"
@@ -73,7 +73,7 @@ items:
     repo_url: "https://github.com/chiace/htpac25"
     description: "Ally is an accessibility-first consensus platform that turns complex discussions into clear, accountable decisions. Teams capture input as structured items: claims, use cases, proposals, implementation notes, and accessibility concerns, then evaluate them with agreement sliders and explicit objections (non-blocking or blocking). A Consensus Health dashboard surfaces what needs attention now: civility index, participation trends, time-to-decision, and objection hotspots. Ally encourages kind collaboration with a tone helper (NVC prompts) and steel-manning before replies, reducing friction while keeping rigor. Outcomes are exported as clean decision records (Markdown/JSON) to drop into GitHub issues and W3C minutes, preserving provenance and accountability. Built for standards work, Ally blends redundancy, resilience, simplicity, and empathy, so groups can make complexity kind and move from discussion to definition."
     demo_url: "https://bit.ly/cchtpac25"
-    image: "https://github.com/user-attachments/assets/6af3dfac-6efa-43c0-8e8f-5e4ecfe5a14d"
+    image: "assets/submissions/6af3dfac-6efa-43c0-8e8f-5e4ecfe5a14d.webp"
     authors:
       - name: "Chiara Cerretti"
         github: "chiace"
@@ -81,7 +81,7 @@ items:
   - title: "W3C Invited Experts — Members per Group"
     repo_url: "https://github.com/igarashi50/hackathon-tpac-2025"
     description: "Dashboard showing the number of W3C Invited Experts contributing to each group, using data from the Directory of W3C Invited Experts."
-    image: "https://github.com/user-attachments/assets/1c918a92-7369-4814-b6d3-4f6499a63b91"
+    image: "assets/submissions/1c918a92-7369-4814-b6d3-4f6499a63b91.webp"
     award: "2nd Place Winner"
     authors:
       - name: "Tatsuya Igarashi"
@@ -91,7 +91,7 @@ items:
     repo_url: "https://github.com/kuriyama3/bakery_hopping"
     description: "Where is the bakery capital of Japan? It's Kobe! Collects data via tabelog, analyzes it, and creates an HTML page with links to maps showing bakery locations in each city, implemented with Gemini."
     demo_url: "https://kuriyama3.github.io/bakery_hopping/bakery_dashboard.html"
-    image: "https://github.com/user-attachments/assets/0c9072de-60cb-425f-99fd-0c7c1f6cb130"
+    image: "assets/submissions/0c9072de-60cb-425f-99fd-0c7c1f6cb130.webp"
     authors:
       - name: "Michiko Kuriyama"
         github: "kuriyama3"
@@ -99,7 +99,7 @@ items:
   - title: "Editing Contributions"
     repo_url: "https://github.com/w3c/hackathon-tpac-2025/issues/7#issuecomment-3516508884"
     description: "Who helps CSS editors? A blame-sourced breakdown of editor versus non-editor contributions, visualized with CodePen-generated graphs using conic gradients."
-    image: "https://github.com/user-attachments/assets/b8e1f317-692c-4ae3-8327-61c109332442"
+    image: "assets/submissions/b8e1f317-692c-4ae3-8327-61c109332442.webp"
     authors:
       - name: "Alan Stearns"
         github: "astearns"
@@ -107,7 +107,7 @@ items:
   - title: "Explainers dashboard"
     repo_url: "https://github.com/tidoust/explainers-dashboard"
     description: "Collects explainers submitted to the TAG for design reviews and categorizes them."
-    image: "https://github.com/user-attachments/assets/44524372-42f4-4140-9ca9-f941f93c9177"
+    image: "assets/submissions/44524372-42f4-4140-9ca9-f941f93c9177.webp"
     authors:
       - name: "François Daoust"
         github: "tidoust"
@@ -115,7 +115,7 @@ items:
   - title: "BCD compare WebView & Browsers"
     repo_url: "https://github.com/NiklasMerz/tpac2025-hackathon"
     description: "Prototype to show how the number of features shipped in WebView differs from the browsers using BCD data."
-    image: "https://github.com/user-attachments/assets/f10151b8-fc5c-4cc3-b283-92c1e400d51a"
+    image: "assets/submissions/f10151b8-fc5c-4cc3-b283-92c1e400d51a.webp"
     authors:
       - name: "Bryan Ellis"
         github: "erisu"
@@ -125,7 +125,7 @@ items:
   - title: "Web Engines Liveticker"
     repo_url: "https://github.com/christianliebel/w3c-hackathon-2025"
     description: "A cool liveticker for web engines activity."
-    image: "https://github.com/user-attachments/assets/4e2d6ee2-bd84-4fab-b734-e2087c37eb20"
+    image: "assets/submissions/4e2d6ee2-bd84-4fab-b734-e2087c37eb20.webp"
     award: "3rd Place Winner"
     authors:
       - name: "Diego Gonzalez-Zuniga"
@@ -137,7 +137,7 @@ items:
     repo_url: "https://github.com/wadakatu/w3c-hackathon"
     description: "A retro 1989 CRT terminal dashboard in nostalgic green-on-black aesthetics."
     demo_url: "https://wadakatu.github.io/w3c-hackathon/"
-    image: "https://github.com/user-attachments/assets/e7af790b-7227-4829-a5b8-9e41ec0afdb0"
+    image: "assets/submissions/e7af790b-7227-4829-a5b8-9e41ec0afdb0.webp"
     award: "1st Place Winner"
     authors:
       - name: "Koyo Isono"
@@ -147,7 +147,7 @@ items:
     repo_url: "https://benja11y.github.io/kobe-hackathon-2025/"
     description: "Who is the most active WG? A WG activity monitor using the GitHub API and public mailing list archives, with modern CSS features and WCAG 3 considerations."
     demo_url: "https://benja11y.github.io/kobe-hackathon-2025/"
-    image: "https://github.com/user-attachments/assets/3c37df1a-1aef-4090-b025-07e937f5d85c"
+    image: "assets/submissions/3c37df1a-1aef-4090-b025-07e937f5d85c.webp"
     authors:
       - name: "Ben Tillyer"
         github: "benja11y"
@@ -156,7 +156,7 @@ items:
     repo_url: "https://marcoscaceres.github.io/tpac_hackathon/"
     description: "Reducing the amount of stuff at the top of W3C documents."
     demo_url: "https://marcoscaceres.github.io/tpac_hackathon/"
-    image: "https://github.com/user-attachments/assets/79628125-7b53-426e-9e14-caf055497c8b"
+    image: "assets/submissions/79628125-7b53-426e-9e14-caf055497c8b.webp"
     award: "3rd Place Winner"
     authors:
       - name: "Marcos Caceres"
